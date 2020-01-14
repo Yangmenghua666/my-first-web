@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.span_vline{
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
