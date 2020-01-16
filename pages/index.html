@@ -292,5 +292,17 @@
                 Copyright © 2020-重庆市忠县新立镇青苔村. All Rights Reserved
             </div>
         </footer>
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#div_li_2").hide();
+                $("#div_ul_2").mouseenter(function(){
+                    $("#div_li_2").slideDown(800);
+                });
+                $("#div_ul_2").mouseleave(function(){
+                    $("#div_li_2").slideUp(800);
+                })
+            });
+        </script>
     </body>
 </html>
